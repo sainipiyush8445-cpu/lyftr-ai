@@ -1,0 +1,56 @@
+# Environment
+.env
+.env.*
+*.env
+*.env.local
+frontend/.env*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+htmlcov/
+.coverage
+dist/
+build/
+*.egg-info/
+venv/
+env/
+.venv/
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+.vitest/
+
+# SQLite Databases & WAL journal files
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Docker
+.docker/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Data
+/data/
+data/
+*.zip
